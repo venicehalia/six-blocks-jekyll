@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+h1 {
+    font-size:2rem}
+.padded {
+    padding: 5%;
+}
+h2 {
+    font-size:2.2rem;
+
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.banner {
+    background-image: url(https://images.unsplash.com/photo-1555400038-63f5ba517a47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+height: 60vh;
+background-size: cover;
+background-position: center;
+min-height: 80vh;
+background-attachment: fixed;
+
+
+}
+.centered {
+    text-align: center;
+    color: cornsilk;
+}
+.small {
+    font-size: 1.8rem
+}
+.button {
+    text-transform: uppercase;
+    color: orange;
+    border: 2px solid orange;
+    padding: 0.5rem 1.5rem;
+    margin: 0.5rem 0rem 0.5rem 0;
+    display: inline-block;
+    text-decoration: none;
+}
+.bg-image 
+{
+background-image: url('https://images.unsplash.com/photo-1546465208-e505fe1b9ef4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+background-size: cover;
+background-position: center;
+min-height: 10rem;
+}
