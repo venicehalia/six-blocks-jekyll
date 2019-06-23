@@ -7,18 +7,22 @@
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>  
+        <header class="grid-spaceBetween">  
+            <p class="logo col-2">
+                KOI
+            </p>
+            <nav class="col-6">
+                <a href= "#">
+                    SKirts
+                </a>
+                <a href= "#">
+                    Shoes
+                </a>
+                <a href= "#">
+                    Bags            
+                </a>
+            </nav>
         </header>
-        <section class="grid-center banner">
-            <div class='col-6-middle centered'>
-                <h1>
-                    {{ page.banner-title }}
-                </h1>
-                <h2>
-                    {{ page.slogan }}
-                </h2>
-             </div>
-        </section>
         {{content}}
     </body>
 </html>
