@@ -34,7 +34,7 @@ background-attachment: fixed;
 }
 .centered {
     text-align: center;
-    color: cornsilk;
+    
 }
 .small {
     font-size: 1.8rem
@@ -54,4 +54,10 @@ background-image: url('https://images.unsplash.com/photo-1546465208-e505fe1b9ef4
 background-size: cover;
 background-position: center;
 min-height: 10rem;
+}
+img {
+    max-width: 100%;
+}   
+.light-bg {
+    background-color: #f0f0f5;
 }
