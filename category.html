@@ -3,12 +3,15 @@ layout: default
 title: KOI Category
 banner-title: Category
 categories:
-- name: Skirts
+- name: Clothing
   image: https://images.unsplash.com/photo-1550402537-6f7b6189b3b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80
+  description: Clothe yourself
 - name: Shoes
   image: https://images.unsplash.com/photo-1475180098004-ca77a66827be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60
+  description: Let the Shoe fit
 - name: Bags
   image: https://images.unsplash.com/photo-1486308510493-aa64833637bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2001&q=80
+  description: Bag Beautiful
 ---
 <section>
     <h1 class='centered'>
@@ -24,6 +27,9 @@ categories:
             <h3> 
                 {{category.name}}
             </h3>
+            <p>
+                {{category.description}}
+            </p>
         </div>
     </div>
     {% endfor %}
