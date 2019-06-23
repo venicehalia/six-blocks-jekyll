@@ -2,5 +2,24 @@
 layout: default
 title: KOI Category
 banner-title: Category
-
+categories:
+- name: Skirts
+  image: https://images.unsplash.com/photo-1550402537-6f7b6189b3b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80
+- name: Shoes
+  image: https://images.unsplash.com/photo-1475180098004-ca77a66827be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60
+- name: Bags
+  image: https://images.unsplash.com/photo-1486308510493-aa64833637bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2001&q=80
 ---
+<section class="grid">
+    {% for category in page.categories %}
+    <div class="col-4_sm-12">
+        <div class="card">
+            <div class="bg-image" style="background-image: url('{{ category.image }}')">
+            </div>
+            <h3> 
+                {{category.name}}
+            </h3>
+        </div>
+    </div>
+    {% endfor %}
+</section>
