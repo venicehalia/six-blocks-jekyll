@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <!-- instructions for every webpage that has a default layout -->
     <head>
         <title> {{page.title}}</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
@@ -7,22 +8,48 @@
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
     </head>
     <body>
+    <section class="grid-center banner">
+        <div class='col-6-middle centered'>
+            <h1>
+                {{ page.banner-title }}
+            </h1>
+            <h2>
+                {{ page.slogan }}
+            </h2>
+            </div>
+    </section>
         <header class="grid-spaceBetween">  
             <p class="logo col-2">
                 KOI
             </p>
-            <nav class="col-6">
+            <nav class="col-10">
                 <a href= "#">
-                    Clothing
+                    Style
                 </a>
                 <a href= "#">
-                    Shoes
+                    Beauty
+                </a> 
+                <a href= "#">
+                    Food & Wine          
                 </a>
                 <a href= "#">
-                    Bags            
+                    Wellness       
+                </a>
+                <a href= "#">
+                    Work     
+                </a>
+                <a href= "#">
+                    Leisure         
                 </a>
             </nav>
         </header>
         {{content}}
+        <footer>
+
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="/scripts/main.js">
+        </script>
     </body>
+
 </html>

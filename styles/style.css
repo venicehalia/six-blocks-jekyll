@@ -1,8 +1,10 @@
+/* default */
 * {
     margin: 0;
     padding:0;
     box-sizing: border-box;
-
+    /* to see all the different borders */
+    border: 1px grey solid;
 }
 body {
     font-family: 'Noto Sans HK', sans-serif;
@@ -11,7 +13,7 @@ header .logo {
     font-size: 2.5rem;
     font-weight: 700;
     padding: 1rem;
-      
+    
 }
 header nav a {
     display: inline-block;
@@ -30,6 +32,7 @@ h1 {
 .padded {
     padding: 5%;
 }
+
 h2 {
     font-size:2.2rem;
 
@@ -40,18 +43,17 @@ p {
 }
 
 .banner {
-    background-image: url(https://images.unsplash.com/photo-1555400038-63f5ba517a47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-image: url(https://images.unsplash.com/photo-1436759644647-e274ee931eaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
 height: 60vh;
 background-size: cover;
 background-position: center;
 min-height: 80vh;
 background-attachment: fixed;
 
-
 }
-.centered {
+.centered, .centered h1, .centered h2 {
     text-align: center;
-    
+    color: antiquewhite;
 }
 .small {
     font-size: 1.8rem

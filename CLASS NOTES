@@ -1,0 +1,25 @@
+---
+layout: default
+title: KOI
+banner-title: This is my homepage
+alert-banner: true
+---
+
+<p> This is a new page</p>
+
+<!-- 24.6.19 JQUERY -->
+Different toggle options
+Let's experiment with difrt values.
+toggle();  //Shows and hides the element
+.slideToggle(); //slides the element in and out
+.fadeToggle():  //fades the element in and out
+
+slide: 16 &17
+2 steps
+1)make Jquery CDN accessible on this page and 
+2) make another folder called Script then make a file called main.JS
+
+
+put this script on default page to show on every page:
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+(from https://cdnjs.com/libraries/jquery/)
